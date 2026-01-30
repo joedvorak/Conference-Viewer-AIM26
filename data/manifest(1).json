@@ -1,0 +1,66 @@
+{
+  "bundle_version": "1.0",
+  "conference_name": "AIM 26",
+  "version_tag": "20260128_155126",
+  "created_at": "2026-01-28T15:51:26.304180",
+  "presentation_count": 1160,
+  "session_count": 108,
+  "has_embeddings": true,
+  "has_encrypted_data": false,
+  "files": {
+    "presentations": {
+      "filename": "presentations.parquet",
+      "rows": 1160,
+      "columns": [
+        "Session Code",
+        "Abstract ID",
+        "Title",
+        "Abstract",
+        "Presentation Session Fit (input)",
+        "Presentation Raw Deviation (input)",
+        "Presentation Standardized Deviation (input)",
+        "Presentation Session Fit",
+        "Presentation Raw Deviation",
+        "Presentation Standardized Deviation",
+        "Session Std Dev"
+      ],
+      "checksum": "cbfd30d79bb42ec9b4364577bc3e6eaf"
+    },
+    "sessions": {
+      "filename": "sessions.parquet",
+      "rows": 108,
+      "columns": [
+        "cluster_id",
+        "session_size",
+        "session_coherence",
+        "session_std_dev",
+        "distinctiveness"
+      ],
+      "checksum": "434f5ce43f07b91e543f931e4b8cc6b9"
+    },
+    "pres_similarities": {
+      "filename": "pres_similarities.parquet",
+      "shape": [
+        1139,
+        1139
+      ],
+      "checksum": "cf3a0a9da20bf963fe51c6d07f2a061f"
+    },
+    "session_similarities": {
+      "filename": "session_similarities.parquet",
+      "shape": [
+        108,
+        108
+      ],
+      "checksum": "b285be1dcbd341f428bcd36f158a7edf"
+    },
+    "embeddings": {
+      "filename": "embeddings.npz",
+      "shape": [
+        1160,
+        3072
+      ],
+      "checksum": "478265996aed52bdfc34db2b83265bb0"
+    }
+  }
+}
